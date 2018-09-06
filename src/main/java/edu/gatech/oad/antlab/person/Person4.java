@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Bob
+ *  @author Josh
  *  @version 1.1
  */
 public class Person4 {
@@ -30,7 +30,10 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
+      String s = "";
+      for (int i = 0; i < input.length(); i++) {
+        s += (char)(input.charAt(i) + 1);
+      }
       return null;
     }
     
