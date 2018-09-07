@@ -31,7 +31,7 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  if (input.length > 2) {
+	  if (input.length() > 2) {
 	  	String swap = input.substring(0, 2);
 	  	String nSwap = input.substring(2, input.length()) + swap;
 	  	return nSwap;
