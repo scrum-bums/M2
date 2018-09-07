@@ -1,0 +1,12 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes("");
+    }
+}
